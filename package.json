@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://ahmadgazar.github.io",
+  "homepage": "https://agazar.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
