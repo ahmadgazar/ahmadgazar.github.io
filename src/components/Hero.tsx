@@ -24,7 +24,7 @@ const Hero = () => {
             >
               <Box
                 component="img"
-                src="/images/profile.jpg"
+                src={`${import.meta.env.BASE_URL}images/profile.jpg`}
                 alt="Ahmad Gazar"
                 sx={{
                   width: '100%',

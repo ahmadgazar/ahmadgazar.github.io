@@ -19,7 +19,7 @@ const publications: Publication[] = [
     conference: "arXiv preprint arXiv:2309.04469",
     year: "2023",
     paperUrl: "https://arxiv.org/abs/2309.04469",
-    videoPath: "/videos/SNMPC.m4v",
+    videoPath: `${import.meta.env.BASE_URL}videos/SNMPC.m4v`,
   },
   {
     title: "Nonlinear Stochastic Trajectory Optimization for Centroidal Momentum Motion Generation of Legged Robots",
@@ -27,7 +27,7 @@ const publications: Publication[] = [
     conference: "Robotics Research. ISRR 2022",
     year: "2022",
     paperUrl: "https://link.springer.com/chapter/10.1007/978-3-031-25555-7_29",
-    videoPath: "/videos/ISRR_submission_video.MOV",
+    videoPath: `${import.meta.env.BASE_URL}videos/ISRR_submission_video.MOV`,
   },
   {
     title: "Stochastic and Robust MPC for Bipedal Locomotions: A comparative result on robustness and performance",
@@ -35,7 +35,7 @@ const publications: Publication[] = [
     conference: "IEEE-RAS 20th International Conference on Humanoid Robots (Humanoids)",
     year: "2021",
     paperUrl: "https://ieeexplore.ieee.org/document/9555783",
-    videoPath: "/videos/humanoids.mov",
+    videoPath: `${import.meta.env.BASE_URL}videos/humanoids.mov`,
   },
   {
     title: "Jerk Control of Floating Base Systems with Contact-Stable Parameterised Force Feedback",
@@ -43,7 +43,7 @@ const publications: Publication[] = [
     conference: "IEEE Transactions on Robotics",
     year: "2021",
     paperUrl: "https://ieeexplore.ieee.org/document/9237133",
-    videoPath: "/videos/TRO2019_jerkControl.mp4",
+    videoPath: `${import.meta.env.BASE_URL}videos/TRO2019_jerkControl.mp4`,
   },
   {
     title: "On the Use of Torque Measurement in Centroidal State Estimation",
