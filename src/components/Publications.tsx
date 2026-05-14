@@ -14,12 +14,20 @@ interface Publication {
 
 const publications: Publication[] = [
   {
+    title: "Impact-Robust Posture Optimization for Aerial Manipulation",
+    authors: "A. Afifi, A. Gazar, J. Alonso-Mora, P. Robuffo Giordano, A. Franchi",
+    conference: "arXiv preprint arXiv:2602.13762",
+    year: "2026",
+    paperUrl: "https://arxiv.org/pdf/2602.13762",
+    videoPath: `${import.meta.env.BASE_URL}videos/ICRA2026_submission_final.mp4`,
+  },
+  {
     title: "Multi-contact Stochastic Predictive Control for Legged Robots with Contact Locations Uncertainty",
     authors: "A. Gazar, M. Khadiv, A. Del Prete, L. Righetti",
     conference: "arXiv preprint arXiv:2309.04469",
     year: "2023",
     paperUrl: "https://arxiv.org/abs/2309.04469",
-    videoPath: `${import.meta.env.BASE_URL}videos/SNMPC.m4v`,
+    videoPath: `${import.meta.env.BASE_URL}videos/SNMPC.mp4`,
   },
   {
     title: "Nonlinear Stochastic Trajectory Optimization for Centroidal Momentum Motion Generation of Legged Robots",
@@ -27,7 +35,7 @@ const publications: Publication[] = [
     conference: "Robotics Research. ISRR 2022",
     year: "2022",
     paperUrl: "https://link.springer.com/chapter/10.1007/978-3-031-25555-7_29",
-    videoPath: `${import.meta.env.BASE_URL}videos/ISRR_submission_video.MOV`,
+    videoPath: `${import.meta.env.BASE_URL}videos/ISRR_submission_video.mp4`,
   },
   {
     title: "Stochastic and Robust MPC for Bipedal Locomotions: A comparative result on robustness and performance",
@@ -35,7 +43,7 @@ const publications: Publication[] = [
     conference: "IEEE-RAS 20th International Conference on Humanoid Robots (Humanoids)",
     year: "2021",
     paperUrl: "https://ieeexplore.ieee.org/document/9555783",
-    videoPath: `${import.meta.env.BASE_URL}videos/humanoids.mov`,
+    videoPath: `${import.meta.env.BASE_URL}videos/humanoids.mp4`,
   },
   {
     title: "Jerk Control of Floating Base Systems with Contact-Stable Parameterised Force Feedback",
