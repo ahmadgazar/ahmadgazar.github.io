@@ -10,8 +10,9 @@ const Hero = () => {
       sx={{
         minHeight: '100vh',
         display: 'flex',
-        alignItems: 'center',
-        pt: { xs: 8, md: 0 },
+        alignItems: 'flex-start',
+        pt: { xs: 12, md: 14 },
+        pb: { xs: 4, md: 8 },
       }}
     >
       <Container maxWidth="lg">
@@ -128,29 +129,24 @@ const Hero = () => {
                     color: 'text.secondary',
                     fontSize: { xs: '1rem', md: '1.1rem' },
                     lineHeight: 1.8,
-                    mb: 2,
+                    mb: 6,
                     textAlign: 'justify',
                   }}
                 >
-                  I am a Post-doctoral researcher at the{' '}
-                  <Link
-                    href="https://autonomousrobots.nl/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    sx={{ color: 'secondary.main' }}
-                  >
-                    Autonomous Multi-Robot (AMR) lab
-                  </Link>{' '}
-                  at{' '}
-                  <Link
-                    href="https://www.tudelft.nl/me/over/afdelingen/cognitive-robotics-cor/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    sx={{ color: 'secondary.main' }}
-                  >
-                    TU Delft
-                  </Link>{' '}
-                  working on motion planning and prediction under uncertainty for autonomous robots. I received my PhD on stochastic predictive control for legged robots from the{' '}
+                  Currently, I am a Senior Robotics Control Engineer at Neura Robotics (VLA team) working on whole-body control / RL for loco-manipulation of humanoid robots (system 0), and reward modelling for VLA fine-tuning (system 1).
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    color: 'text.secondary',
+                    fontSize: { xs: '1rem', md: '1.1rem' },
+                    lineHeight: 1.8,
+                    mb: 6,
+                    textAlign: 'justify',
+                  }}
+                >
+                  I received my PhD on stochastic predictive control for legged robots from the{' '}
                   <Link
                     href="https://uni-tuebingen.de/en/"
                     target="_blank"
@@ -158,8 +154,8 @@ const Hero = () => {
                     sx={{ color: 'secondary.main' }}
                   >
                     University of Tübingen
-                  </Link>{' '}
-                  , Germany advised by{' '}
+                  </Link>
+                  , Germany, advised by{' '}
                   <Link
                     href="https://engineering.nyu.edu/faculty/ludovic-righetti"
                     target="_blank"
@@ -176,7 +172,7 @@ const Hero = () => {
                     sx={{ color: 'secondary.main' }}
                   >
                     Prof. Andrea Del Prete
-                  </Link>{' '}
+                  </Link>
                   . During my PhD, I was affiliated with the{' '}
                   <Link
                     href="https://is.mpg.de/"
@@ -195,8 +191,42 @@ const Hero = () => {
                   >
                     Machines in Motion Laboratory
                   </Link>{' '}
+                  at New York University (NYU). I also spent one year as a Post-doctoral researcher at the{' '}
+                  <Link
+                    href="https://autonomousrobots.nl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{ color: 'secondary.main' }}
+                  >
+                    Autonomous Multi-Robot (AMR) lab
+                  </Link>{' '}
                   at{' '}
-                  New York University (NYU)
+                  <Link
+                    href="https://www.tudelft.nl/me/over/afdelingen/cognitive-robotics-cor/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{ color: 'secondary.main' }}
+                  >
+                    TU Delft
+                  </Link>{' '}
+                  working on motion planning and prediction under uncertainty for autonomous robots, advised by{' '}
+                  <Link
+                    href="https://autonomousrobots.nl/people/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{ color: 'secondary.main' }}
+                  >
+                    Prof. Javier Alonso-Mora
+                  </Link>{' '}
+                  and{' '}
+                  <Link
+                    href="http://www.jenskober.de/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    sx={{ color: 'secondary.main' }}
+                  >
+                    Prof. Jens Kober
+                  </Link>
                   .
                 </Typography>
 
@@ -206,7 +236,7 @@ const Hero = () => {
                     color: 'text.secondary',
                     fontSize: { xs: '1rem', md: '1.1rem' },
                     lineHeight: 1.8,
-                    mb: 2,
+                    mb: 6,
                     textAlign: 'justify',
                   }}
                 >
@@ -249,7 +279,7 @@ const Hero = () => {
                     textAlign: 'justify',
                   }}
                 >
-                  My research interests and expertise are in trajectory optimization, model predictive control, and state estimation of legged robots. Currently, I am studying problems that fall into the category of Adaptive Control/Reinforcement learning for optimal decision making under uncertainty for multi-robot autonomous systems.
+                  My research interests and expertise are in trajectory optimization, model predictive control, and state estimation of legged robots. I am also interested in problems that fall into the category of Adaptive Control / Reinforcement Learning for optimal decision making under uncertainty for multi-robot autonomous systems.
                 </Typography>
               </motion.div>
             </Box>
